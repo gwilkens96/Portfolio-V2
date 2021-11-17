@@ -1,3 +1,33 @@
-import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import React, { useState } from "react";
+import Navigation from "./Navigation";
+import Portfolio from "./pages/Portfolio";
+import AboutMe from "./pages/AboutMe";
+import Resume from "./pages/Resume";
+import ContactMe from "./pages/ContactMe";
+
+export default function ProjectContainer() {
+  const [currentPage, setCurrentPage] = useState("Portfolio");
+
+  const renderPage = () => {
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    } else if (currentPage === "AboutMe") {
+      return <AboutMe />;
+    } else if (currentPage === "Resume") {
+      return <Resume />;
+    }
+    return <ContactMe />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <Navigation
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      />
+      {renderPage()}
+    </div>
+  );
+}
