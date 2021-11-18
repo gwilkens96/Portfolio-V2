@@ -11,9 +11,11 @@ export default function ProjectContainer() {
   const renderPage = () => {
     if (currentPage === "Portfolio") {
       return <Portfolio />;
-    } else if (currentPage === "AboutMe") {
+    }
+    if (currentPage === "AboutMe") {
       return <AboutMe />;
-    } else if (currentPage === "Resume") {
+    }
+    if (currentPage === "Resume") {
       return <Resume />;
     }
     return <ContactMe />;
