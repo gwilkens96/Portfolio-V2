@@ -1,2 +1,11 @@
 import React from "react";
-import Navigation from "./Navigation";
+
+function Header() {
+  return (
+    <div>
+      <h1> Griffin's React Resume</h1>
+    </div>
+  );
+}
+
+export default Header;
