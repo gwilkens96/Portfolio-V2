@@ -5,7 +5,7 @@ import AboutMe from "./pages/AboutMe";
 import Resume from "./pages/Resume";
 import ContactMe from "./pages/ContactMe";
 
-export default function ProjectContainer() {
+function ProjectContainer() {
   const [currentPage, setCurrentPage] = useState("Portfolio");
 
   const renderPage = () => {
@@ -33,3 +33,5 @@ export default function ProjectContainer() {
     </div>
   );
 }
+
+export default ProjectContainer;
