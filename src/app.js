@@ -1,6 +1,12 @@
 import React from "react";
-import Project from "./components/Project.js";
+import ProjectContainer from "./components/Project";
 
-const App = () => <Project />;
+function App() {
+  return (
+    <div className="portfolio">
+      <ProjectContainer />
+    </div>
+  );
+}
 
 export default App;
