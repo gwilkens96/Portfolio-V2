@@ -8,7 +8,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 function ProjectContainer() {
-  const [currentPage, setCurrentPage] = useState("Portfolio");
+  const [currentPage, setCurrentPage] = useState("AboutMe");
 
   const renderPage = () => {
     if (currentPage === "Portfolio") {
