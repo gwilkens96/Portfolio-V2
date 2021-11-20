@@ -1,8 +1,8 @@
 import React from "react";
-import hikeFinder from "../img/uhikepic.jpg";
-import broomSweeper from "../img/professionaleyespic.jpg";
-import openBook from "../img/readmepic.jpg";
-import calendarShot from "../img/schedulerpic.jpg";
+import hikeFinder from "../img/uhikerscrnsht.png";
+import emailSweeper from "../img/professionaleyes.herokuapp.com.png";
+import readMe from "../img/readmegenny.png";
+import workDayShot from "../img/schedulerscrnsht.jpg";
 
 export default function Portfolio() {
   return (
@@ -15,11 +15,7 @@ export default function Portfolio() {
               style={{ textDecoration: "none" }}
               href="https://gwilkens96.github.io/u-hiker-project-1/"
             >
-              <img
-                src={hikeFinder}
-                alt="dog and trail"
-                class="img-fluid h-50"
-              />
+              <img src={hikeFinder} alt="U-Hiker" class="img-fluid h-50" />
               <h3>U-Hiker</h3>
             </a>
             <p>Javascript/CSS/HTML</p>
@@ -31,8 +27,8 @@ export default function Portfolio() {
               href="https://professionaleyes.herokuapp.com/"
             >
               <img
-                src={broomSweeper}
-                alt="it's a mop ig w/e"
+                src={emailSweeper}
+                alt="ProfessionalEyes"
                 class="img-fluid h-50"
               />
               <h3>ProfessionalEyes</h3>
@@ -48,7 +44,7 @@ export default function Portfolio() {
               href="https://github.com/gwilkens96/09-Node.js-Homework-Professional-README-Generator"
             >
               <img
-                src={openBook}
+                src={readMe}
                 alt="flipping pages in a book"
                 class="img-fluid h-50"
               />
@@ -62,11 +58,7 @@ export default function Portfolio() {
               style={{ textDecoration: "none" }}
               href="https://gwilkens96.github.io/05-Work-Day-Scheduler/"
             >
-              <img
-                src={calendarShot}
-                alt="calendar under glasses"
-                class="img-fluid h-50"
-              />
+              <img src={workDayShot} alt="Day Planner" class="img-fluid h-50" />
               <h3>Workday Scheduler</h3>
             </a>
             <p>HTML/Javascript</p>
