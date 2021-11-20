@@ -11,3 +11,15 @@ a.nav-link {
 p {
   font-weight: 500;
 }
+
+a.link {
+  display: table;
+}
+
+h3 {
+  color: #db5461;
+}
+
+img.cat {
+  margin-left: 650px;
+}
