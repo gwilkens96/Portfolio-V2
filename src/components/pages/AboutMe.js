@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div>
       <p>
-        Welcome to my portfolio! My name is Griffin Wilkens, and I am a
+        {""}Welcome to my portfolio! My name is Griffin Wilkens, and I am a
         certified full-stack web developer trained at the Georgia Tech coding
         bootcamp. Born in New York, I moved to Georgia when I was two years old
         and lived in the greater Atlanta area all my life. I've worked various
