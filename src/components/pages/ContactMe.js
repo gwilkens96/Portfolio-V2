@@ -26,14 +26,14 @@ export default function ContactMe() {
           </a>
         </li>
         <li class="p-4">
-          Please reach me at:
+          You can reach me at:
           <a style={{ textDecoration: "none" }} href="tel:4044038524">
             {" "}
-            404-403-8524 📞
+            404-403-8524 📱
           </a>
         </li>
         <li class="p-4">
-          Email me at:
+          Feel free to email me at:
           <a
             style={{ textDecoration: "none" }}
             href="mailto: gbwilkens96@protonmail.com"

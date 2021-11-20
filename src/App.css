@@ -1,0 +1,13 @@
+body {
+  background-color: #f1edee;
+  color: #686963;
+}
+
+a.nav-link {
+  color: #db5461;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 500;
+}
