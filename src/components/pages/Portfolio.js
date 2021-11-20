@@ -1,4 +1,5 @@
 import React from "react";
+import hikeFinder from "../img/uhikepic.jpg";
 
 export default function Portfolio() {
   return (
@@ -6,6 +7,12 @@ export default function Portfolio() {
       <div class="container">
         <div class="row">
           <div class="col">
+            <img
+              id="selfPortrait"
+              src={hikeFinder}
+              alt="dog and trail"
+              class="img-fluid h-100"
+            />
             <a
               style={{ textDecoration: "none" }}
               href="https://gwilkens96.github.io/u-hiker-project-1/"
