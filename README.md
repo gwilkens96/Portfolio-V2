@@ -1,4 +1,4 @@
-# Griffin Wilkens' Portfolio
+# Griffin Wilkens' React Portfolio
   
   
   ## Description
@@ -20,17 +20,11 @@ Clicking the link will take you right to the portfolio
 
 Built with React, this portfolio will give you all the information on Griffin's skills including other projects and a comprehensive resume.
 
-## License
-
- 
 
 ## Credits
 
 Griffin Wilkens
 
-## Tests
-
-None yet!
 
 ## Questions
 
