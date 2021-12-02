@@ -7,6 +7,10 @@ import workDayShot from "../img/schedulerscrnsht.jpg";
 export default function Portfolio() {
   return (
     <div>
+      <p class="top">
+        Linked here are some of the projects I made during the GT bootcamp that
+        I am most proud of:
+      </p>
       <div class="container">
         <div class="row">
           <div class="col">
@@ -18,7 +22,12 @@ export default function Portfolio() {
               <img src={hikeFinder} alt="U-Hiker" class="img-fluid h-50" />
               <h3>U-Hiker</h3>
             </a>
-            <p>Javascript/CSS/HTML</p>
+            <h4>Javascript/CSS/HTML</h4>
+            <p>
+              U-Hiker is a website that will allow you to search for the nearest
+              parks and hiking trails within the radius of a given city and give
+              you the direct route from your home to that park or trail.
+            </p>
           </div>
           <div class="col">
             <a
@@ -33,7 +42,13 @@ export default function Portfolio() {
               />
               <h3>ProfessionalEyes</h3>
             </a>
-            <p>Node/JavaScript/CSS/Handlebars</p>
+            <h4>Node/JavaScript/CSS/Handlebars</h4>
+            <p>
+              ProfessionalEyes is a website that will take a given text, analyze
+              key words the algorithm determines "too emotional," and return
+              synonyms that are more neutral and professional. You may also make
+              a profile to save these messages and edit them as you please.
+            </p>
           </div>
         </div>
         <div class="row">
@@ -50,7 +65,11 @@ export default function Portfolio() {
               />
               <h3>ReadMe Generator</h3>
             </a>
-            <p>Javascript/Inquirer</p>
+            <h4>Javascript/Inquirer</h4>
+            <p>
+              This app will generate a clean and industry standard readme for
+              any and all projects.
+            </p>
           </div>
           <div class="col">
             <a
@@ -61,7 +80,12 @@ export default function Portfolio() {
               <img src={workDayShot} alt="Day Planner" class="img-fluid h-50" />
               <h3>Workday Scheduler</h3>
             </a>
-            <p>HTML/Javascript</p>
+            <h4>HTML/CSS/Javascript</h4>
+            <p>
+              This simple app allows the user to plan for their busy days.
+              Allows saving if they do a task daily and tracks the time hourly
+              and daily.
+            </p>
           </div>
         </div>
       </div>

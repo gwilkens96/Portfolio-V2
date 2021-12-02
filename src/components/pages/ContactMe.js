@@ -3,9 +3,9 @@ import React from "react";
 export default function ContactMe() {
   return (
     <div>
-      <h1>Contact Me:</h1>
-      <ul>
-        <li class="p-4">
+      <h1 class="contact">Contact Me:</h1>
+      <ul class="bg-light">
+        <li class="p-2">
           Link with me here:
           <a
             style={{ textDecoration: "none" }}
@@ -15,7 +15,7 @@ export default function ContactMe() {
             LinkedIn 🔗
           </a>
         </li>
-        <li class="p-4">
+        <li class="p-2">
           See my other work here:
           <a
             style={{ textDecoration: "none" }}
@@ -25,14 +25,14 @@ export default function ContactMe() {
             Github 🖥
           </a>
         </li>
-        <li class="p-4">
+        <li class="p-2">
           You can reach me at:
           <a style={{ textDecoration: "none" }} href="tel:4044038524">
             {" "}
             404-403-8524 📱
           </a>
         </li>
-        <li class="p-4">
+        <li class="p-2">
           Feel free to email me at:
           <a
             style={{ textDecoration: "none" }}

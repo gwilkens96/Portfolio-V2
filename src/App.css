@@ -12,14 +12,34 @@ p {
   font-weight: 500;
 }
 
+p.top {
+  text-indent: 50px;
+  line-height: 25px;
+  padding: 10px;
+}
+
 a.link {
   display: table;
+}
+
+h1.title {
+  margin-left: 700px;
+  margin-top: 20px;
+}
+
+h1.contact {
+  margin-bottom: 50px;
 }
 
 h3 {
   color: #db5461;
 }
 
+ul {
+  margin-bottom: 50px;
+}
+
 img.cat {
   margin-left: 650px;
+  max-height: 700px;
 }
