@@ -18,6 +18,8 @@ export default function Portfolio() {
               class="link"
               style={{ textDecoration: "none" }}
               href="https://gwilkens96.github.io/u-hiker-project-1/"
+              target="_blank"
+              rel="noreferrer"
             >
               <img src={hikeFinder} alt="U-Hiker" class="img-fluid h-50" />
               <h3>U-Hiker</h3>
@@ -34,6 +36,8 @@ export default function Portfolio() {
               class="link"
               style={{ textDecoration: "none" }}
               href="https://professionaleyes.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={emailSweeper}
@@ -57,6 +61,8 @@ export default function Portfolio() {
               class="link"
               style={{ textDecoration: "none" }}
               href="https://github.com/gwilkens96/09-Node.js-Homework-Professional-README-Generator"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={readMe}
@@ -76,6 +82,8 @@ export default function Portfolio() {
               class="link"
               style={{ textDecoration: "none" }}
               href="https://gwilkens96.github.io/05-Work-Day-Scheduler/"
+              target="_blank"
+              rel="noreferrer"
             >
               <img src={workDayShot} alt="Day Planner" class="img-fluid h-50" />
               <h3>Workday Scheduler</h3>

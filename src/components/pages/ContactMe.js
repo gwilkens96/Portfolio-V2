@@ -10,6 +10,8 @@ export default function ContactMe() {
           <a
             style={{ textDecoration: "none" }}
             href="https://www.linkedin.com/in/griffin-wilkens-375b96217"
+            target="_blank"
+            rel="noreferrer"
           >
             {" "}
             LinkedIn 🔗
@@ -20,6 +22,8 @@ export default function ContactMe() {
           <a
             style={{ textDecoration: "none" }}
             href="https://github.com/gwilkens96"
+            target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Github 🖥
