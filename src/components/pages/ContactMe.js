@@ -14,7 +14,7 @@ export default function ContactMe() {
             rel="noreferrer"
           >
             {" "}
-            LinkedIn 🔗
+            Linkedin 🔗
           </a>
         </li>
         <li class="p-2">
@@ -30,7 +30,7 @@ export default function ContactMe() {
           </a>
         </li>
         <li class="p-2">
-          You can reach me at:
+          You can reach me anytime at:
           <a style={{ textDecoration: "none" }} href="tel:4044038524">
             {" "}
             404-403-8524 📱
